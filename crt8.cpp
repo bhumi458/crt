@@ -37,18 +37,35 @@ using namespace std;
 
 
 
+// int main(){
+//     int withdrawl;
+//     cout<<"enter withdrawl amount"<<endl;
+//     cin>>withdrawl;
+
+//      if(withdrawl == 0){
+//         cout<<"transctions is invalid"<<endl;
+//      }
+
+//      else{
+//         cout<<"transctions is valid"<<endl;
+//      }
+
+//      return 0;
+// }
+
+
+
+//WAP to print number between 1 to n that is divisible by 2
 int main(){
-    int withdrawl;
-    cout<<"enter withdrawl amount"<<endl;
-    cin>>withdrawl;
+   int n;
+   cout<<"enter number"<<endl;
+   cin>>n;
 
-     if(withdrawl == 0){
-        cout<<"transctions is invalid"<<endl;
-     }
+   for(int i=1; i<=n; i++){
+      if(i%2 == 0){
+         cout<<i<<endl;
+      }
+   }
 
-     else{
-        cout<<"transctions is valid"<<endl;
-     }
-
-     return 0;
+   return 0;
 }
