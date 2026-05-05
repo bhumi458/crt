@@ -141,29 +141,56 @@ using namespace std;
 // }
 
 
+
+
 // swap two number using pointer
 
-int swap(int &a , int &b){
-    int *ptr1 = &a;
-    int *ptr2 = &b;
+// int swap(int &a , int &b){
+//     int *ptr1 = &a;
+//     int *ptr2 = &b;
 
-    int temp;
+//     int temp;
 
-     temp = *ptr1,
-    *ptr1 = *ptr2,
-    *ptr2 = temp;
+//      temp = *ptr1,
+//     *ptr1 = *ptr2,
+//     *ptr2 = temp;
 
-    cout<<"after swapping a = "<<a <<"and b="<<b<<endl;
+//     cout<<"after swapping a = "<<a <<"and b="<<b<<endl;
     
+//     return 0;
+// }
+
+// int main(){
+//     int a , b;
+//     cout<<"enter the value of a and b"<<endl;
+//     cin>>a >> b;
+
+//     swap(a , b);
+//     return 0;
+
+// }
+
+
+
+
+
+
+
+
+//write a function that takes length and breadth as a input , return and print the area of rectangle 
+
+int areaOfrectangle(int length , int breadth){
+    int area = length * breadth;
+    cout<<"area os rectangle =" << area << endl;
     return 0;
 }
 
 int main(){
-    int a , b;
-    cout<<"enter the value of a and b"<<endl;
-    cin>>a >> b;
+    int length , breadth;
+    cout<<"enter the length and breadth of rectangle"<<endl;
+    cin>>length;
+    cin>>breadth;
 
-    swap(a , b);
+    areaOfrectangle(length , breadth);
     return 0;
-
 }
