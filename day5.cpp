@@ -173,10 +173,6 @@ using namespace std;
 
 
 
-
-
-
-
 //write a function that takes length and breadth as a input , return and print the area of rectangle 
 
 int areaOfrectangle(int length , int breadth){
